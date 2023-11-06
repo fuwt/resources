@@ -11685,7 +11685,7 @@ document.querySelector(".container-fluid").appendChild(anwser_selector)
 
 setInterval(function(){
   cur = document.querySelector("#question_area > div:not([style*='display: none'])")
-  curquestion = cur.querySelector("span:nth-child(2)").innerText.replace(/^\d+\. / ,"").replace(/\s+/, ' ').replace('(','（').replace(')', "）").reqplace(" ",'').replace("?","？")
+  curquestion = cur.querySelector("span:nth-child(2)").innerText.replace(/^\d+\. / ,"").replace(/\s+/, ' ').replace('(','（').replace(')', "）").replace(" ",'').replace("?","？")
   r = new RegExp(curquestion + "[\\s\\S]*？(？=\\n\\d)")
   answer  = text.match(r)
 
