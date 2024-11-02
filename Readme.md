@@ -14,4 +14,5 @@ document.body.appendChild(script);
 %s/（）/（ ）/g
 %s/\*//g
 %s/ //g
+%s/,/，/g
 ```
