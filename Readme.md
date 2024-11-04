@@ -16,3 +16,8 @@ document.body.appendChild(script);
 %s/ //g
 %s/,/，/g
 ```
+
+
+``` javascript
+document.querySelector("#myVideo_html5_api").playbackRate = 8
+```
